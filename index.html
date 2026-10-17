@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Budapest evening · Sat 17 Oct</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f3eee4; --ink:#1d2a36; --mute:#5c6a76; --line:#d9d0c0;
+  --river:#1f4d6b; --gold:#c9961f; --card:#fbf8f1;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#15202b; --ink:#eee6d6; --mute:#a3adb6; --line:#2d3b48;
+    --river:#8fc0dd; --gold:#e0b04a; --card:#1c2a37;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#15202b; --ink:#eee6d6; --mute:#a3adb6; --line:#2d3b48;
+  --river:#8fc0dd; --gold:#e0b04a; --card:#1c2a37;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,"Helvetica Neue",Arial,sans-serif;line-height:1.55;font-size:17px}
+main{max-width:38rem;margin:0 auto;padding:2rem 1.25rem 4rem}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:2.3rem;line-height:1.1;margin:0 0 .4rem;letter-spacing:-.01em}
+.sub{color:var(--mute);margin:0 0 2rem}
+.sub b{color:var(--ink);font-weight:600}
+ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--line);margin-left:3.4rem}
+li{position:relative;padding:0 0 1.9rem 1.4rem}
+li:last-child{padding-bottom:0}
+li::before{content:"";position:absolute;left:-7px;top:.55rem;width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid var(--bg)}
+.t{position:absolute;left:-4.9rem;top:.15rem;width:3.2rem;text-align:right;font-weight:600;font-size:.95rem;color:var(--river)}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:1.3rem;margin:0 0 .25rem;line-height:1.2}
+p{margin:0 0 .5rem}
+.how{color:var(--mute);font-size:.95rem}
+a.map{display:inline-block;font-size:.9rem;font-weight:600;color:var(--river);text-decoration:none;border-bottom:1.5px solid currentColor;padding-bottom:1px}
+a.map:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.note{margin-top:2.5rem;padding:1rem 1.1rem;background:var(--card);border:1px solid var(--line);border-radius:10px;font-size:.95rem}
+.note p{margin:0 0 .4rem}.note p:last-child{margin:0}
+</style>
+</head>
+<body>
+<main>
+  <h1>Budapest, Saturday evening</h1>
+  <p class="sub">Meet at Florin Apart Hotel, Károly krt. 9. Sunset is at <b>5:45pm</b>, so we need to be up the hill by 5:15.</p>
+
+  <ol>
+    <li>
+      <span class="t">3:30</span>
+      <h2>Bors Gastro Bar</h2>
+      <p class="how">Kazinczy u. 10, five minutes from the hotel. Soups and baguettes, about €8 each.</p>
+      <a class="map" href="https://maps.google.com/?cid=2789081712543594489">Open in Google Maps</a>
+    </li>
+    <li>
+      <span class="t">4:45</span>
+      <h2>Bus 16 from Deák Ferenc tér</h2>
+      <p class="how">Two minutes from the hotel. Ride about 15 minutes up Castle Hill and get off at Szentháromság tér.</p>
+      <a class="map" href="https://maps.google.com/?cid=12538848265537449519">Open in Google Maps</a>
+    </li>
+    <li>
+      <span class="t">5:15</span>
+      <h2>Fisherman’s Bastion</h2>
+      <p class="how">Find a spot on the lower terraces (free) before sunset at 5:45. Stay until Parliament lights up across the river. Matthias Church is right beside it.</p>
+      <a class="map" href="https://maps.google.com/?cid=3397469662292958790">Open in Google Maps</a>
+    </li>
+    <li>
+      <span class="t">6:30</span>
+      <h2>Buda Castle</h2>
+      <p class="how">Ten minutes’ walk south along the hill. The courtyards and terraces are open and lit at night, and free to wander.</p>
+      <a class="map" href="https://maps.google.com/?cid=4453561264047727990">Open in Google Maps</a>
+    </li>
+    <li>
+      <span class="t">7:15</span>
+      <h2>Chain Bridge</h2>
+      <p class="how">Walk down beside the funicular and cross on foot. Stop in the middle for the lit-up view both ways.</p>
+      <a class="map" href="https://maps.google.com/?cid=2180022421263796644">Open in Google Maps</a>
+    </li>
+    <li>
+      <span class="t">7:45</span>
+      <h2>Karaván, then Szimpla Kert</h2>
+      <p class="how">Straight back along Károly körút to the Jewish Quarter. Street food at Karaván (Kazinczy u. 18), then the ruin bars next door. Both are a few minutes from the hotel.</p>
+      <a class="map" href="https://maps.google.com/?cid=9954132998036314126">Open in Google Maps</a>
+    </li>
+  </ol>
+
+  <div class="note">
+    <p>Bring a jacket, it gets cold on the hill after sunset.</p>
+    <p>Everything after the bus is walking and free. Bus 16 needs a normal ticket or the 24-hour travelcard.</p>
+  </div>
+</main>
+</body>
+</html>
